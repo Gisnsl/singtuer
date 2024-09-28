@@ -30,6 +30,7 @@
     
     unzip signature.zip
     cd signature
+    chmod +x *
     python main.py
     
 ادوات أخرى يمكنك استخدامها :
