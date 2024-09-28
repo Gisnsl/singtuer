@@ -13,7 +13,7 @@
 
 لتحديث الحزم المثبتة وتثبيت Python، افتح الطرفية واستخدم الأوامر التالية:
 
-    ```bash
+    
     pkg update && pkg upgrade
     pkg install python git
 
