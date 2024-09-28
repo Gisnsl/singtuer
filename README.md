@@ -15,15 +15,21 @@
 
     
     pkg update && pkg upgrade
-    pkg install python git
+    pkg install python
+    pkg install wget
+    pkg install unzip
+    pkg install openjdk-17
 
 لتنزيل ملف ZIP الخاص بالتوقيع، استخدم الأمر التالي:
 
-    git clone https://github.com/Gisnsl/singtuer/releases/download/1.0/signature.zip
+    wget https://github.com/Gisnsl/singtuer/releases/download/1.0/signature.zip
 التوقيع
 لتشغيل البرنامج والتوقيع، استخدم الأمر التالي:
 
 
+    
+    unzip signature.zip
+    cd signature
     python main.py
     
 ادوات أخرى يمكنك استخدامها :
